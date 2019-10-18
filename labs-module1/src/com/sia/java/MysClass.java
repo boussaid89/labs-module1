@@ -8,14 +8,17 @@ package com.sia.java;
 public class MysClass {
 
 	private String mm;
+
 	private int b;
+
+	private String news;
 
 	private int count;
 	
 	/**
 	 * Method permet de faire ....
 	 * 
-	 * @return boolean si égale à 50
+	 * @return boolean si Ã©gale Ã  50
 	 */
 	public static  boolean verifierCode( ) {
 		

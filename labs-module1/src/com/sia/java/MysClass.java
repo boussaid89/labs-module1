@@ -8,6 +8,7 @@ package com.sia.java;
 public class MysClass {
 
 	private String mm;
+	private int b;
 
 	private int count;
 	

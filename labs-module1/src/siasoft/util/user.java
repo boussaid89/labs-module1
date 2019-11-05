@@ -14,6 +14,7 @@ import java.util.Objects;
 public class user {
     private String login;
     private String password;
+    private String test;
 
     public user(String login, String password) {
         this.login = login;

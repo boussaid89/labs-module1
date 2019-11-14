@@ -13,9 +13,9 @@ public class MysClass {
 
 	private String news;
 
-	private int count;
+	private int countxcx;
 	
-	private int bou;
+	private int boumadien;
 	
 	/**
 	 * Method permet de faire ....

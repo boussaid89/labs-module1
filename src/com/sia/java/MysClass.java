@@ -15,6 +15,7 @@ public class MysClass {
 
 	private int count;
 	private int count2;
+	private int count3;
 
 	
 	/**

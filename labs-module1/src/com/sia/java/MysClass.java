@@ -17,7 +17,7 @@ public class MysClass {
 	
 	private int test;
 	
-	// test
+	// testt
 	
 	/**
 	 * Method permet de faire ....

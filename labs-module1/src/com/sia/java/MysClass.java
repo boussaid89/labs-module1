@@ -135,7 +135,7 @@ public class MysClass {
 					e.printStackTrace();
 				}
 				*/
-	
+	//tesssssssssst
 		
 	/*	try {
 			lLdapConnection.bind("uid=admin,ou=system", "MyPa$$word01%");
@@ -166,7 +166,31 @@ public class MysClass {
 
         lLdapConnection.unBind();
         lLdapConnection.close();
-		
+		/*  try {
+				lLdapConnection.bind("uid=admin,ou=system", "MyPa$$word01%");
+			
+
+		        lLdapConnection.add( 
+		                new DefaultEntry( 
+		                    "uid=test,ou=users,dc=uxelio,dc=com",    // Distinguished Name
+		                    "ObjectClass: top",
+		                    "objectClass: inetOrgPerson",
+		                    "ObjectClass: person",
+		                    "objectClass: organizationalPerson",
+		                    "cn: test",
+		                    "sn: surnom",
+		                    "mail:test@gmail.com",
+		                    "userPassword:test"
+		                    
+		                    ));
+
+		        lLdapConnection.unBind();
+		        lLdapConnection.close();
+			 } catch (LdapException | IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				*/
         lLdapConnection.bind( "cn=boumadien,ou=users,dc=uxelio,dc=com", "1234" );
         if(lLdapConnection.isConnected())
         	System.out.println("ok");
